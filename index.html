@@ -3,5 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Pacifico&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          poppins: ['Poppins', 'sans-serif'],
+          pacifico: ['Pacifico', 'cursive'],
+          orbitron: ['Orbitron', 'sans-serif'],
+        }
+      }
+    }
+  }
+</script>
+    <title>BMI Calculator</title>
+</head>
+<body class = "h-screen bg-gray-900 flex flex-col">
+    <nav class="bg-sky-600">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-center items-center h-16">
+                <h1 class="font-orbitron text-3xl">
+                    BMI Calculator 
+                </h1>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>

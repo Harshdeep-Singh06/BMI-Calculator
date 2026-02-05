@@ -23,5 +23,6 @@ This app allows users to enter their height and weight and instantly calculates 
 - JavaScript (Vanilla JS)
 
 ---
+![BMI App Screenshot](screenshot.png)
 
 
